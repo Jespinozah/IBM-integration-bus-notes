@@ -15,3 +15,9 @@
 1. Integration node
    - The runtime engine of IBM Integration bus
 
+## IBM Integration Bus runtime components
+1. Integration node
+2. Integration server
+3. Message flow applications
+
+
