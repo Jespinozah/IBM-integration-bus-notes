@@ -20,4 +20,10 @@
 2. Integration server
 3. Message flow applications
 
+## IBM Integration Bus operation modes
+1. Express
+2. Scale
+3. Standard
+4. Advanced
+
 
