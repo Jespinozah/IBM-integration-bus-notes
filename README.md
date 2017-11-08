@@ -26,4 +26,10 @@
 3. Standard
 4. Advanced
 
-
+## IBM Integration Bus processes messages in two ways
+1. Message routing
+   Messages can be routed from sender to recipient based on the content of the message.
+2. Message transformation
+   Messages can be transformed before being delivered:
+   - They can be transformed from one format to another, perhaps to accommodate the different requirements of the sender and the recipient.
+   - They can be transformed by modifying, combining, adding, or removing data fields, perhaps involving the use of information stored in a database. Information can be mapped between messages and databases. More complex manipulation of message data can be achieved by writing code, for example in Extended SQL (ESQL) or Java™, within configurable nodes.
