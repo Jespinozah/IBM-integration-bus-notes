@@ -32,10 +32,15 @@ message processing nodes in that flow.
    - Reference message models that describe the data.
 
 ## IBM Integration Bus operation modes
-1. Express
-2. Scale
-3. Standard
-4. Advanced
+   Operation modes typically restrict the number of message flow nodes that are available, and
+integration server capacity, but many features are available across all modes of operation. This
+figure summarizes four of the IBM Integration Bus operation modes: Express, Scale, Standard, and
+Advanced. IBM Integration Bus is also available in Developer mode and Adapter mode.
+
+   1. Express
+   2. Scale
+   3. Standard
+   4. Advanced
 
 ## IBM Integration Bus processes messages in two ways
 1. Message routing
