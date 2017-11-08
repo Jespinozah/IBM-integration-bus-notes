@@ -17,8 +17,19 @@
 
 ## IBM Integration Bus runtime components
 1. Integration node
+   - Routes, transforms, and enriches in-flight messages as determined by message
+flows and message models.
+   - Can be many integration nodes, each running on separate systems to provide
+protection against failure or separate the work.
 2. Integration server
+   - Named grouping of message flows that are assigned to an integration node.
+   - Each integration server is a separate operating system process, which provides
+isolated runtime environments for a set of deployed message flow applications.
 3. Message flow applications
+   - Describe the application connectivity logic, which defines the exact path that the
+data takes in the integration node, and the processing that is applied to it by the
+message processing nodes in that flow.
+   - Reference message models that describe the data.
 
 ## IBM Integration Bus operation modes
 1. Express
