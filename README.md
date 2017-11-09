@@ -58,3 +58,17 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
    Messages can be transformed before being delivered:
    - They can be transformed from one format to another, perhaps to accommodate the different requirements of the sender and the recipient.
    - They can be transformed by modifying, combining, adding, or removing data fields, perhaps involving the use of information stored in a database. Information can be mapped between messages and databases. More complex manipulation of message data can be achieved by writing code, for example in Extended SQL (ESQL) or Java™, within configurable nodes.
+
+# Application development fundamentals
+
+## Main components
+   1. Integration node
+      Routes, transform, and enriches messages as determined bye message flows and message models.
+   2. Integration server
+      Named gruping of message flows.
+   3. Message flow
+      Sequence of operations
+   4. Message flow nodes
+      Define operations
+   5. Message models
+      Define structure and properties of the data
