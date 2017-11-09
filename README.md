@@ -72,3 +72,12 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
       Define operations
    5. Message models
       Define structure and properties of the data
+
+## Basic IBM Integration Bus commands
+
+   *mqsilist*
+   List the IBM Integration Bus components on the system
+   *mqsistart*
+   Start components
+   *mqsistop*
+   Stop components
