@@ -81,3 +81,33 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
        Start components
    3. *mqsistop*
        Stop components
+
+# Modeling the data
+
+## Message modeling
+   - Most messages require a model at run time to parse the message bit stream from the physical data and serialize to create the physical bit stream from model.
+   - Modeling accelerates the development of transformations at design time in the IBM Integration Toolkit
+   - Validationn can be used for checking message correctness when parsing.
+
+## Message model object properties
+   - Logical model is a format-independent description, similar to default values.
+   - Physical model
+   - Documentation does not affect processing
+
+## Parser types
+   - Programmatic parsers
+   - Descriptive parsers
+   - IBM Integration Bus uses both approaches
+
+## Model definition files
+   - Describe the logical structure of the message
+   - Describe the physical formats of the message bit stream during transmission.
+   - Can be imported from WSDL, an XML schema, DTD, COBOL ord C.
+   - Contains a message model with message, elements, types, and so on
+   - Based on XML schema standards
+
+## Data Format Description Language (DFDL)
+   - An open standart from Open Grid Forum (OGF)
+   - Uses XML technology and concepts
+   - Describes any data format
+   - Support round-trippig
