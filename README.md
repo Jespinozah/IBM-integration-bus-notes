@@ -3,8 +3,8 @@
 
 # Table of contents
 
-1. [Introduction to IBM Integration Bus](#introduccion-to-IIB)
-2. [Application development fundametals](#application-development-fundametals)
+1. [Introduction to IBM Integration Bus](#introduccion-to-iib)
+2. [Application development fundametals](#application-development-fundamentals)
 3. Creating message flow applications
 4. Connecting to IBM MQ
 5. Controlling the flow applications
