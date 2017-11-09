@@ -3,8 +3,6 @@
 
 # Introduccion to IIB
 
-# Introduccion to IIB
-
 ## IBM Integration Bus themes
 1. Simple and productive
 2. Universal and independent
