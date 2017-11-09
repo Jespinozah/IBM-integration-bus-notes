@@ -11,6 +11,11 @@
 7. Patterns provide reusable solutions
 8. Operational managment and performance
 
+## IBM Integration Bus features
+1. Transform and route data from anywhere to anywhere
+2. Patterns provide reusable solutions that encapsulate a tested approach to solving a common architecture, desing, or deployment task
+3. Operational managment and performance
+
 ## IBM Integration Bus main components
 1. Integration node
    - The runtime engine of IBM Integration bus
