@@ -111,3 +111,14 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
    - Uses XML technology and concepts
    - Describes any data format
    - Support round-trippig
+
+## When should you use DFDL?
+   - Use DFDL to model:
+     - Binary data
+     - Text data with delimiters such as csv
+     - Text industry standars
+     - Binary industry sntandars
+   - Do not use DFDL to model:
+     - XML data that can use XML parsers and have a XML schema
+     - JSON that can use JSON parsers
+   -  Do not use DFDL expressions to implement complex validation rules
