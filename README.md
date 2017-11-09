@@ -19,6 +19,10 @@
 ## IBM Integration Bus main components
 1. Integration node
    - The runtime engine of IBM Integration bus
+2. Message flows
+   - Provides isolation and scalability
+3. Application
+   - Container for all the resources that are  required to create a solution
 
 ## IBM Integration Bus runtime components
 1. Integration node
