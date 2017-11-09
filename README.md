@@ -140,3 +140,17 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
      - XML data that can use XML parsers and have a XML schema
      - JSON that can use JSON parsers
    -  Do not use DFDL expressions to implement complex validation rules
+
+# Processing file data
+
+## Files processing node
+   1. Generic
+      - FileInput
+      - FileRead
+      - FileOutput
+   2. IBM Sterling Connect: Direct
+      - CDInput
+      - CDOutput
+   3. IBM MQ File Transfer Edition
+      -FTEIput 
+      -FTEOuput 
