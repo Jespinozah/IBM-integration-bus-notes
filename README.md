@@ -75,9 +75,9 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
 
 ## Basic IBM Integration Bus commands
 
-   *mqsilist*
-   List the IBM Integration Bus components on the system
-   *mqsistart*
-   Start components
-   *mqsistop*
-   Stop components
+   1. *mqsilist*
+       List the IBM Integration Bus components on the system
+   2. *mqsistart*
+       Start components
+   3. *mqsistop*
+       Stop components
