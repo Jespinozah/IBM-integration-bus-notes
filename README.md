@@ -1,6 +1,22 @@
 # IBM Integration BUS
 ###### IBM Integration Bus provides connectivity across enterprise systems, applications, and data
 
+# Table of contents
+
+1. Introduction  to IBM Integration Bus
+2. Application development fundametals
+3. Creating message flow applications
+4. Connecting to IBM MQ
+5. Controlling the flow applications
+6. MOdeling the data
+7. Processing file data
+8. Using problem determination tools and help resources
+9. Mapping messages with the Graphical Data Mapping editor
+10. Referencing a database in a message flow application
+11. Using Compute nodes to transform messages
+12. Procesing JMS, HTTP, and web service messages
+13. Preparing for production
+
 # Introduccion to IIB
 
 ## IBM Integration Bus themes
