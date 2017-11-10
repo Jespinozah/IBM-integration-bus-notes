@@ -125,7 +125,7 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
      - MQInput
      - MQOutput 
      - MQGet 
-     - MQReply 
+     - MQReply
 
 # Modeling the data
 
@@ -167,6 +167,25 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
      - XML data that can use XML parsers and have a XML schema
      - JSON that can use JSON parsers
    -  Do not use DFDL expressions to implement complex validation rules
+
+# Controllig the flow of messages
+
+## Logical message model
+   - A consistent, convenient way to represent message content inside IBM Integration Bus
+   - Removes and isolates the physical details of message
+   - Organizaed as message assembly that contains four trees:
+     - Message tree
+     - Enviroment tree
+     - Local enviroment tree
+     - Exception tree
+   - Element values are stored in Unicode to facilitate code conversion
+   - Elements in the tree are addressed by using XPath or the dotted name notation
+
+## Message routing nodes
+   - Filter
+   - Route
+   - Label
+   - FlowOrder  
 
 # Processing file data
 
