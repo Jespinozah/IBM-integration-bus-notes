@@ -6,7 +6,7 @@
 1. [Introduction to IBM Integration Bus](#introduccion-to-iib)
 2. [Application development fundametals](#application-development-fundamentals)
 3. Creating message flow applications
-4. Connecting to IBM MQ
+4. [Connecting to IBM MQ](#connecting-to-ibm-mq)
 5. Controlling the flow applications
 6. MOdeling the data
 7. Processing file data
@@ -99,6 +99,33 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
        Start components
    3. *mqsistop*
        Stop components
+
+# Connecting to IBM MQ
+ 
+## IBM  MQ functional overview
+   - Common application programing interface
+   - Assuraded message delivery
+   - Time-independent processing
+   - Application parallelism
+   - Faster application development
+
+## Messages
+   - Contain the application data or payload
+   - Are placed o queues
+   - Contain IBM MQ message descriptor (MQMD) with control information
+   - Can contain optional message properties that the applications creates
+
+## Queues
+   - A queue is a place to store message until  the can be processed
+
+## IBM MQ  connectivity options with  IBM Intragration Bus
+   - Message flow applications can access existing IBM MQ networks to get o input a messages
+   - Globally coordinated transaction control requires  that MQInput and the MQOuput  nose use the same local queue manager
+   - The MQ Connection properties are available on the following MQ nodes:
+     - MQInput
+     - MQOutput 
+     - MQGet 
+     - MQReply 
 
 # Modeling the data
 
