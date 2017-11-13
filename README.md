@@ -199,4 +199,25 @@ Advanced. IBM Integration Bus is also available in Developer mode and Adapter mo
       - CDOutput
    3. IBM MQ File Transfer Edition
       -FTEIput 
-      -FTEOuput 
+      -FTEOuput
+
+# Processing JMS, HTTP and Web service messages
+
+## Java Message Service (JMS)
+   JMS provides a standard API for Java applications to use for enterprise messaging. Java standards are controlled through the Java Community Process. It was developed with input from many messaging providers, including IBM.
+
+## JMS architecture
+   - JMS client
+   - Messaging provider
+   - Message
+   - Administered objects(Connection Factory and Destination)
+
+   Java Naming and Directory Interface (JNDI) is a standard Java extension that provides a uniform API for accessing various directory and naming services.
+
+## IBM Integration Bus support for JMS
+
+   IBM Integration Bus support the JMS version 1.1 and 2.0 standard. It uses the IBM Integration Bus JMS Transport Service to connect to JMS messaging providers.
+
+## JMS nodes
+
+   The JMS nodes can be used in applications in which messages are produced and used from various JMS destinations. In sending and receiving messages, the JMS nodes behave like JMS clients. 
